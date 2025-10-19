@@ -1,6 +1,6 @@
 class DoctorNode:
     def __init__(self,name):
-        self.name=Name
+        self.name=name
         self.left=None
         self.right=None
 
