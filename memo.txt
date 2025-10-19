@@ -1,0 +1,12 @@
+The doctor tree uses a binary tree structure where each node represents 
+a doctor that has two direct reports. Recersive travel is used for flexability,
+preorder is from a topdown view from the managements perspective. This also
+is designed for balancing listings and review chains making it simple to travel 
+around the hierachy maintaing readability with logical flow. The emergancy queue
+uses a miniheap to manage patients on a severity level. This means the most
+urgant cases will always be put up to the top of the list guarinteeing O(1)
+acess time for the most sever patients. Both do have tradeoffs like with the 
+Doctor tree priortizing clartity and traveling the tree while the miniheap
+is big on run time and automatic order maintance. I feel this was the best way 
+to set up a good mirror for the real world set up that can be improve performance
+scalability and maintainability when it comes from a point of emergance work.
